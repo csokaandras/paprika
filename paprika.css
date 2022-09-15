@@ -1,8 +1,8 @@
 body{
     background-color: #FFEFD5 ;
     color: #8b4513;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 a, a:hover{
@@ -25,9 +25,15 @@ th{
     text-align: center;
 }
 
-@media screen and (max-width: 600px){
+@media (max-width: 614px){
     h1{
-      size: 100px;  
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 444px){
+    h1{
+        font-size: 20px;
     }
 }
 
