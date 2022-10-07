@@ -70,6 +70,13 @@ li{
     background-color: #f8f8f8;
 }
 
+#menu{
+  float: right;
+}
+#fokeret{
+  float: left;
+}
+
 #menu__toggle{
     visibility: hidden;
 }
@@ -128,21 +135,36 @@ li{
         height: 100%;
         margin: 0;
         padding: 80px 0;
-        background-color: #ECEFF1;
+        background-color: #FFEFD5;
         box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
         transition-duration: .25s;
       }
       .menu__item {
+        
         display: block;
-        padding: 12px 24px;
+        padding: 24px 24px;
         color: #333;
         font-size: 15px;
-        font-weight: 50;
+        font-weight: 100px;
         text-decoration: none;
         transition-duration: .25s;
-        width: 10px;
+        
       }
       .menu__item:hover {
         background-color: #CFD8DC;
+        text-decoration: none;
+      }
+
+      li{
+        list-style: none;
+        width: 150px;
+        background-color: #ffecce;
+        border: black solid 2px;
+        color: black;
+        
+      }
+
+      #fokeret{
+        z-index: -1;
       }
 }
