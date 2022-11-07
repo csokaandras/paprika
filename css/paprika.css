@@ -4,6 +4,9 @@ body{
     margin-left: 8%;
     margin-right: 8%;
     box-shadow: 18px 28px 38px 4px rgba(0,0,0,0.61);
+    padding-bottom: 100px;
+    border: 20px solid #F1BC31;
+    border-radius: 15px;
 }
 
 a:hover{
