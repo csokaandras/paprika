@@ -6,9 +6,12 @@ body{
     box-shadow: 18px 28px 38px 4px rgba(0,0,0,0.61);
 }
 
-a, a:hover{
+a:hover{
     color: #E25822;
     text-decoration: none;
+}
+a{
+  color: #F1BC31;
 }
 
 table{
@@ -53,16 +56,20 @@ h1{
 }
 
 #zold{
-    background-color: rgba(0, 128, 0, 0.5);
+    background-color: rgb(0, 128, 0);
+    color: black;
 }
 #sarga{
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: rgb(255, 255, 0);
+    color: black;
 }
 #piros{
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgb(255, 0, 0);
+    color: black;
 }
 #lila{
-    background-color: rgba(128, 0, 128, 0.5);
+    background-color: rgb(128, 0, 128);
+    color: black;
 }
 
 li{
@@ -71,7 +78,7 @@ li{
     width: 200px;
     margin: 10px;
     background-color: #7C0A02;
-    color: #E25822;
+    color: #F1BC31;
     box-shadow: 18px 28px 38px 4px rgba(0,0,0,0.61);
 }
 
@@ -125,7 +132,7 @@ li:hover{
         position: absolute;
         width: 100%;
         height: 2px;
-        background-color: #616161;
+        background-color: #E25822;
         transition-duration: .25s;
       }
       .menu__btn > span::before {
@@ -153,7 +160,7 @@ li:hover{
         
         display: block;
         padding: 15px 20px;
-        color: #E25822;
+        color: #F1BC31;
         font-size: 15px;
         font-weight: 100px;
         text-decoration: none;
@@ -170,7 +177,7 @@ li:hover{
         width: 150px;
         background-color: #7C0A02;
         border: #F1BC31 solid 2px;
-        color: #E25822;
+        color: #F1BC31;
         box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
       }
 
